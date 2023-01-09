@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "63971175c71974c902a15467"
+  },
+  "fecha_venta": {
+    "$date": {
+      "$numberLong": "946681200000"
+    }
+  },
+  "cliente_id": {
+    "$oid": "639712d84ba9ff24606db8ff"
+  },
+  "empleado_id": {
+    "$oid": "639712cb4ba9ff24606db8fc"
+  },
+  "gafas_id": {
+    "$oid": "639712d44ba9ff24606db8fe"
+  },
+  "proveedor_id": {
+    "$oid": "639712d04ba9ff24606db8fd"
+  }
+}]

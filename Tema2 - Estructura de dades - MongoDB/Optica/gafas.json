@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "63971107c71974c902a15464"
+  },
+  "marca": "",
+  "graduacion_derecha": 0,
+  "graduacion_izquierda": 0,
+  "montura": "",
+  "montura_color": "",
+  "color_vidrio_izquierdo": "",
+  "color_vidrio_derecho": "",
+  "precio": 0
+}]

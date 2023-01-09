@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "63986169d4b1649379bcc0a5"
+  },
+  "nombre": "",
+  "descripcion": "",
+  "imagen": {
+    "$binary": {
+      "base64": "MA==",
+      "subType": "00"
+    }
+  },
+  "precio": {
+    "$numberDecimal": "0"
+  },
+  "pedido_id": {
+    "$oid": "639862bcd4b1649379bcc0b7"
+  }
+}]

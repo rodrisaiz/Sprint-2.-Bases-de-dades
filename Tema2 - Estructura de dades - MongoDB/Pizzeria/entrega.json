@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "63986017d4b1649379bcc09d"
+  },
+  "empleado_id": {
+    "$oid": "63986262d4b1649379bcc0b0"
+  },
+  "fecha_entrega": {
+    "$date": {
+      "$numberLong": "0"
+    }
+  }
+}]

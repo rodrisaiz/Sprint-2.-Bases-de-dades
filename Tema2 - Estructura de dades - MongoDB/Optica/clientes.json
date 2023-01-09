@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "63970ff9c71974c902a1545b"
+  },
+  "nombre": "",
+  "apellido1": "",
+  "apellido2": "",
+  "telefono": 0,
+  "correo_electronico": "",
+  "fecha_registro": {
+    "$date": {
+      "$numberLong": "0"
+    }
+  },
+  "cliente_recomendacion": {
+    "$oid": "639713584ba9ff24606db90b"
+  },
+  "direccion_id": {
+    "$oid": "63970ceac71974c902a15456"
+  }
+}]

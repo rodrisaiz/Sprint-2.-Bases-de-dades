@@ -1,0 +1,4 @@
+
+use('restaurante')
+
+db.restaurantes.find({ name: "Wendy'S"})

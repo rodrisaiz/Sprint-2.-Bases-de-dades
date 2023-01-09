@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "63985fbad4b1649379bcc09b"
+  },
+  "tienda_id": {
+    "$oid": "63986252d4b1649379bcc0ae"
+  },
+  "nombre": "",
+  "apellidos": "",
+  "nif": "",
+  "telefono": 0
+}]

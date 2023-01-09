@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "63985f32d4b1649379bcc099"
+  },
+  "nombre": "",
+  "apellido": "",
+  "direccion": "",
+  "codigo_postal": "",
+  "localidad": "",
+  "provincia": "",
+  "telefono": 0
+}]

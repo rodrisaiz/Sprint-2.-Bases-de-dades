@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "639860e6d4b1649379bcc0a3"
+  },
+  "cliente_id": {
+    "$oid": "6398627fd4b1649379bcc0b4"
+  },
+  "fecha": {
+    "$date": {
+      "$numberLong": "0"
+    }
+  },
+  "reparto": [
+    ""
+  ],
+  "pizza_cantidad": 0,
+  "hamburguesa_cantidad": 0,
+  "bebida_cantidad": 0,
+  "precio_total": {
+    "$numberDecimal": "0"
+  },
+  "tienda_id": {
+    "$oid": "6398629ed4b1649379bcc0b5"
+  }
+}]
