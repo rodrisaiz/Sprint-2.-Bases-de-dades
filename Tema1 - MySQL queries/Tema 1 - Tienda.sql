@@ -4,7 +4,7 @@ SELECT nombre FROM producto;
 -- 2 - Lista los nombres y precios de todos los productos de la tabla "producto".
 SELECT nombre, precio FROM producto;
 -- 3 - Lista todas las columnas de la tabla "producto".
-SELECT *FROM producto;
+SHOW COLUMNS FROM producto;
 -- 4 - Lista el nombre de los "productos", el precio en euros y el precio en dólares estadounidenses (USD).
 SELECT nombre, CONCAT(precio ,' ', '€') AS EURO, CONCAT(precio * 0.96  ,' ', '$') AS DOLAR  FROM producto;
 -- 5 - Lista el nombre de los "productos", el precio en euros y el precio en dólares estadounidenses. Utiliza los siguientes sobrenombre para las columnas: nombre de "producto", euros, dólares estadounidenses.
@@ -80,7 +80,6 @@ SELECT nombre FROM producto WHERE codigo_fabricante = (SELECT codigo FROM fabric
 -- 40 - Devuelve todos los productos de la base de datos que tienen un precio mayor o igual al producto más caro del fabricante Lenovo.
 SELECT * FROM producto WHERE precio >=(SELECT precio FROM producto WHERE codigo_fabricante = (SELECT codigo FROM fabricante WHERE nombre = 'Lenovo') ORDER BY precio DESC LIMIT 1);
 -- 41 - Lista todos los productos del fabricante Asus que tienen un precio superior al precio medio de todos sus productos.
-SELECT * FROM producto WHERE codigo_fabricante = (SELECT codigo FROM fabricante WHERE nombre = 'Asus')AND precio >= (SELECT AVG(precio) FROM fabricante WHERE nombre = 'Asus');
-
+SELECT * FROM producto WHERE codigo_fabricante = (SELECT codigo FROM fabricante WHERE nombre = 'Asus') AND precio >= (SELECT AVG(precio) FROM producto WHERE codigo_fabricante = (SELECT codigo FROM fabricante WHERE nombre = 'Asus'));
 
 
