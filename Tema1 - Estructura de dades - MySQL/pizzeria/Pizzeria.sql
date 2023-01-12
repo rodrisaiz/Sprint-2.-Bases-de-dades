@@ -203,6 +203,7 @@ COLLATE = utf8mb4_0900_ai_ci;
 CREATE TABLE IF NOT EXISTS `pizzeria`.`pedido_has_pizza` (
   `pedido_id` INT NOT NULL,
   `pizza_id` INT NOT NULL,
+  `cantidad` INT NULL,
   PRIMARY KEY (`pedido_id`, `pizza_id`),
   INDEX `fk_pedido_has_pizza_pizza1_idx` (`pizza_id` ASC) VISIBLE,
   INDEX `fk_pedido_has_pizza_pedido1_idx` (`pedido_id` ASC) VISIBLE,
@@ -227,6 +228,7 @@ COLLATE = utf8mb4_0900_ai_ci;
 CREATE TABLE IF NOT EXISTS `pizzeria`.`pedido_has_bebidas` (
   `pedido_id` INT NOT NULL,
   `bebidas_id` INT NOT NULL,
+  `cantidad` INT NULL,
   PRIMARY KEY (`pedido_id`, `bebidas_id`),
   INDEX `fk_pedido_has_bebidas_bebidas1_idx` (`bebidas_id` ASC) VISIBLE,
   INDEX `fk_pedido_has_bebidas_pedido1_idx` (`pedido_id` ASC) VISIBLE,
@@ -251,6 +253,7 @@ COLLATE = utf8mb4_0900_ai_ci;
 CREATE TABLE IF NOT EXISTS `pizzeria`.`pedido_has_hamburguesas` (
   `pedido_id` INT NOT NULL,
   `hamburguesas_id` INT NOT NULL,
+  `cantidad` INT NULL,
   PRIMARY KEY (`pedido_id`, `hamburguesas_id`),
   INDEX `fk_pedido_has_hamburguesas_hamburguesas1_idx` (`hamburguesas_id` ASC) VISIBLE,
   INDEX `fk_pedido_has_hamburguesas_pedido1_idx` (`pedido_id` ASC) VISIBLE,
