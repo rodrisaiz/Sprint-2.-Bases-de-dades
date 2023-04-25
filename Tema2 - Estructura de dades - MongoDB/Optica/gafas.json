@@ -1,13 +1,26 @@
 [{
-  "_id": {
-    "$oid": "63971107c71974c902a15464"
+  "_id_gafas": {
+    "$oid": "6446526f8b0ff89d6d6317d4"
   },
-  "marca": "",
-  "graduacion_derecha": 0,
-  "graduacion_izquierda": 0,
-  "montura": "",
-  "montura_color": "",
-  "color_vidrio_izquierdo": "",
-  "color_vidrio_derecho": "",
-  "precio": 0
+  "maraca": "Marca de las gafas",
+  "graduacion_izquierda": {
+    "$numberDecimal": "1.68"
+  },
+  "graduacion_derecha": {
+    "$numberDecimal": "1.92"
+  },
+  "montura": [
+    "flotate",
+    "Pasta",
+    "Metalica"
+  ],
+  "montura_color": "Verde",
+  "color_viidrio_izquierdo": "claro",
+  "color_viidrio_derecho": "claro",
+  "precio": {
+    "$numberDecimal": "105.99"
+  },
+  "_id_proveedor": {
+    "$oid": "6446526f8b0ff89d6d6317d5"
+  }
 }]

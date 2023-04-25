@@ -1,21 +1,23 @@
 [{
-  "_id": {
-    "$oid": "63970ff9c71974c902a1545b"
+  "_id_cliente": {
+    "$oid": "6446526f8b0ff89d6d6317d4"
   },
-  "nombre": "",
-  "apellido1": "",
-  "apellido2": "",
-  "telefono": 0,
-  "correo_electronico": "",
+  "nombre": "Nombre del cliente",
+  "direccion": [
+    "Calle - string",
+    "Numero - string",
+    "Piso - string",
+    "Puerta - string",
+    "Ciudad - string",
+    "Codigo postal - string",
+    "Pais - string"
+  ],
+  "telefono": 935214789,
+  "email": "email del cliente",
   "fecha_registro": {
-    "$date": {
-      "$numberLong": "0"
-    }
+    "$date": "2003-03-26T00:00:00.000Z"
   },
-  "cliente_recomendacion": {
-    "$oid": "639713584ba9ff24606db90b"
-  },
-  "direccion_id": {
-    "$oid": "63970ceac71974c902a15456"
+  "_id_cliente_recomendacion": {
+    "$oid": "6446526f8b0ff89d6d6317d4"
   }
 }]

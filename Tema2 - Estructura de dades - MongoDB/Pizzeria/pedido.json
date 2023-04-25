@@ -1,25 +1,46 @@
 [{
-  "_id": {
-    "$oid": "639860e6d4b1649379bcc0a3"
+  "_id_pedido": {
+    "$oid": "6446526f8b0ff89d6d6317d4"
   },
-  "cliente_id": {
-    "$oid": "6398627fd4b1649379bcc0b4"
+  "_id_cliente": {
+    "$oid": "6446526f8b0ff89d6d6317d4"
   },
-  "fecha": {
-    "$date": {
-      "$numberLong": "0"
-    }
+  "_id_tienda": {
+    "$oid": "6446526f8b0ff89d6d6317d4"
   },
-  "reparto": [
-    ""
-  ],
-  "pizza_cantidad": 0,
-  "hamburguesa_cantidad": 0,
-  "bebida_cantidad": 0,
+  "fecha_pedido": {
+    "$date": "2003-03-26T00:00:00.000Z"
+  },
   "precio_total": {
-    "$numberDecimal": "0"
+    "$numberDecimal": "9.99"
   },
-  "tienda_id": {
-    "$oid": "6398629ed4b1649379bcc0b5"
-  }
+  "entrga": [
+    [
+      "Domicilio",
+      "Tienda"
+    ],
+    {
+      "_id_empleado": "64466adf8b0ff89d6d631820"
+    },
+    {
+      "fecha_entraga": "2003-03-26T00:00:00.000Z"
+    }
+  ],
+  "cantidad_por_producto": [
+    [
+      {
+        "_id_prducto": "64466b7e8b0ff89d6d631829"
+      },{
+        "cantidad": 2
+      }
+      
+    ], [
+      {
+        "_id_prducto": "64466b7e8b0ff89d6d631829"
+      },{
+        "cantidad": 4
+      }
+      
+    ]
+  ]
 }]

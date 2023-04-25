@@ -1,7 +1,9 @@
 [{
-  "_id_tienda": {
+  "_id_proveedor": {
     "$oid": "6446526f8b0ff89d6d6317d4"
   },
+  "nombre": "Nombre del proveedor",
+  "NIF": "NIF",
   "direccion": [
     "Calle - string",
     "Numero - string",
@@ -10,5 +12,7 @@
     "Ciudad - string",
     "Codigo postal - string",
     "Pais - string"
-  ]
+  ],
+  "fax": 935214789,
+  "telefono": 935214789
 }]

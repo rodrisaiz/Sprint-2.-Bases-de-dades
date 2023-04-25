@@ -1,12 +1,13 @@
 [{
-  "_id": {
-    "$oid": "63985fbad4b1649379bcc09b"
+  "_id_empleado": {
+    "$oid": "6446526f8b0ff89d6d6317d4"
   },
-  "tienda_id": {
-    "$oid": "63986252d4b1649379bcc0ae"
-  },
-  "nombre": "",
-  "apellidos": "",
-  "nif": "",
-  "telefono": 0
+  "Nombre": "Nombre del empleado",
+  "Apellido": "Apellido del empleado",
+  "NIF": "NIF",
+  "telefono": 935214789,
+  "puesto": [
+    "Reparto",
+    "Cocina"
+  ]
 }]

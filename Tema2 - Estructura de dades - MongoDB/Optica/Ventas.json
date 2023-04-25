@@ -1,0 +1,15 @@
+[{
+  "_id_venta": {
+    "$oid": "6446526f8b0ff89d6d6317d4"
+  },
+  "empleado": "Nombre del empleado",
+  "fecha_venta": {
+    "$date": "2003-03-26T00:00:00.000Z"
+  },
+  "_id_cliente": {
+    "$oid": "644652998b0ff89d6d6317d5"
+  },
+  "_id_gafas": {
+    "$oid": "6446529b8b0ff89d6d6317d6"
+  }
+}]

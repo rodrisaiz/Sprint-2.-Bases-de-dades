@@ -1,12 +1,17 @@
 [{
-  "_id": {
-    "$oid": "63985f32d4b1649379bcc099"
+  "_id_cliente": {
+    "$oid": "6446526f8b0ff89d6d6317d4"
   },
-  "nombre": "",
-  "apellido": "",
-  "direccion": "",
-  "codigo_postal": "",
-  "localidad": "",
-  "provincia": "",
-  "telefono": 0
+  "Nombre": "Nombre del cliente",
+  "Apellido": "Apellido del cliente",
+  "direccion": [
+    "Calle - string",
+    "Numero - string",
+    "Piso - string",
+    "Puerta - string",
+    "Ciudad - string",
+    "Codigo postal - string",
+    "Pais - string"
+  ],
+  "telefono": 935214789
 }]

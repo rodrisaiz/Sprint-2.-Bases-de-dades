@@ -1,0 +1,26 @@
+[{
+  "_id_producto": {
+    "$oid": "6446526f8b0ff89d6d6317d4"
+  },
+  "nombre": "Nombre del producto",
+  "descripcion": "Descripcion del producto",
+  "precio_producto": {
+    "$numberDecimal": "9.99"
+  },
+  "tipo_de_producto": [
+    "Pizzas",
+    "Hamburguesas",
+    "Bebidas"
+  ],
+  "categoria": [
+    "Categoria 1",
+    "Categoria 2",
+    "Categoria 3"
+  ],
+  "imagen": {
+    "$binary": {
+      "base64": "",
+      "subType": "00"
+    }
+  }
+}]
