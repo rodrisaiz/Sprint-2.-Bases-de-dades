@@ -2,21 +2,17 @@
   "_id_gafas": {
     "$oid": "6446526f8b0ff89d6d6317d4"
   },
-  "maraca": "Marca de las gafas",
+  "marca": "Marca de las gafas",
   "graduacion_izquierda": {
     "$numberDecimal": "1.68"
   },
   "graduacion_derecha": {
     "$numberDecimal": "1.92"
   },
-  "montura": [
-    "flotate",
-    "Pasta",
-    "Metalica"
-  ],
+  "montura": "Marca de las gafas",
   "montura_color": "Verde",
-  "color_viidrio_izquierdo": "claro",
-  "color_viidrio_derecho": "claro",
+  "color_vidrio_izquierdo": "claro",
+  "color_vidrio_derecho": "claro",
   "precio": {
     "$numberDecimal": "105.99"
   },

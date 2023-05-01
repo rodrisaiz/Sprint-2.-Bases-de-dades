@@ -7,16 +7,10 @@
   "precio_producto": {
     "$numberDecimal": "9.99"
   },
-  "tipo_de_producto": [
+  "tipo_de_producto": 
     "Pizzas",
-    "Hamburguesas",
-    "Bebidas"
-  ],
-  "categoria": [
+  "categoria": 
     "Categoria 1",
-    "Categoria 2",
-    "Categoria 3"
-  ],
   "imagen": {
     "$binary": {
       "base64": "",

@@ -15,10 +15,8 @@
     "$numberDecimal": "9.99"
   },
   "entrga": [
-    [
+    
       "Domicilio",
-      "Tienda"
-    ],
     {
       "_id_empleado": "64466adf8b0ff89d6d631820"
     },

@@ -6,8 +6,5 @@
   "Apellido": "Apellido del empleado",
   "NIF": "NIF",
   "telefono": 935214789,
-  "puesto": [
-    "Reparto",
-    "Cocina"
-  ]
+  "puesto": "puesto"
 }]
